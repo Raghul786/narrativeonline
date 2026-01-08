@@ -1,0 +1,7 @@
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.9/weblogic-web-app.xsd">
+<context-root>/reddit</context-root>
+<resource-description>
+<res-ref-name>jdbc/RedditDS</res-ref-name>
+<jndi-name>jdbc/RedditDS</jndi-name>
+</resource-description>
+</weblogic-web-app>
